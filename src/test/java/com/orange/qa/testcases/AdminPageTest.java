@@ -52,11 +52,11 @@ public class AdminPageTest extends TestBase{
 		adminPage.selectUserByName("deepa");
 	}
 	
-	/*@Test(priority=3)
+	@Test(priority=3)
 	public void selectMultipleUserTest(){
 		adminPage.selectUserByName("deepa");
 		adminPage.selectUserByName("Vibha");
-	}*/
+	}
 	
 	@DataProvider
 	public Object[][] getUsersTestData(){
