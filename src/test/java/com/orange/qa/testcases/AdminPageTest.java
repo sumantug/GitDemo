@@ -40,10 +40,12 @@ public class AdminPageTest extends TestBase{
 		adminPage=new AdminPage();
 		homePage=loginPage.login(prop.getProperty("username"),prop.getProperty("password"));
 		adminPage=homePage.clickOnAdminLink();
+		System.out.println("Inside seup method");
 	}
 	
 	@Test(priority=1)
 	public void verifyAdminPageLabel(){
+		System.out.println("Inside first test case");
 		Assert.assertTrue(adminPage.verifySystemUsersLabel(), "System Users label is missing");
 	}
 	
