@@ -1,0 +1,16 @@
+com\orange\qa\pages\MyInfoPage.class
+com\orange\qa\pages\RecruitmentPage.class
+com\orange\qa\pages\DirectoryPage.class
+com\orange\qa\pages\HomePage.class
+com\orange\qa\base\TestBase.class
+com\orange\qa\util\TestUtil.class
+com\orange\qa\pages\PerformancePage.class
+com\orange\qa\pages\PIMPage.class
+com\orange\qa\pages\MaintenancePage.class
+com\orange\qa\pages\LoginPage.class
+com\orange\qa\pages\TimePage.class
+com\orange\qa\pages\AdminPage.class
+com\orange\qa\pages\DashboardPage.class
+com\orange\qa\util\WebEventListener.class
+com\qa\ExtentReportListener\ExtentReporterNG.class
+com\orange\qa\pages\LeavePage.class
