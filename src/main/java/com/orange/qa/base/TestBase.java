@@ -23,6 +23,7 @@ public class TestBase {
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventListener;
+	public static JavascriptExecutor js;
 
 	public TestBase(){
 		 try {
@@ -38,7 +39,7 @@ public class TestBase {
 		 } 
 	}
 	public static void highlightElement(WebElement elem) {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js = (JavascriptExecutor) driver;
 		if (driver instanceof JavascriptExecutor) {
 	        ((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid yellow'",elem);
 	        try {

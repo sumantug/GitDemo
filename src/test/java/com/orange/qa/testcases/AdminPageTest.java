@@ -54,7 +54,7 @@ public class AdminPageTest extends TestBase{
 		adminPage.selectUserByName("deepa");
 	}
 	
-	@Test(priority=3)
+	@Test
 	public void selectMultipleUserTest(){
 		adminPage.selectUserByName("deepa");
 		adminPage.selectUserByName("Vibha");
